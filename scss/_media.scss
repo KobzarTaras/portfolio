@@ -1,0 +1,99 @@
+
+@media (min-width: 1200px) {}
+
+
+@media (min-width: 992px) and (max-width: 1199px) {}
+.experience__skill:nth-child(even){
+    margin-left: auto !important;
+}
+.myproject__description-text{
+    margin-top: 10px !important;
+    padding: 10px 20px !important;
+}
+.experience__skill-img{
+    max-width: 100%;
+    width: 100%;
+    height: auto;
+}
+@media  (max-width: 991px) {
+.main__wrapper{
+    flex-direction: column !important;
+}
+.main__wrapper-img{
+    margin: 0 auto;
+}
+.experience__skill {
+    flex-flow: column !important;
+    align-items: center !important;
+    height: auto !important;
+}
+.experience__skill:nth-child(even) .experience__text {
+ order: 1;
+}
+.experience__skill:nth-child(even) .experience__img{
+order: 2;
+}
+.myproject__main{
+    flex-direction: column;
+}
+.myproject__description {
+    margin-bottom: 30 !important;
+}
+}
+
+@media (max-width: 767px) {
+    .header__menu{
+        gap: 0 !important;
+        display: block;
+        justify-content: center !important;
+    }
+    .main__wrapper-title{
+        flex-direction: column;
+    }
+    .myproject__portfolio-img-img{
+        width: 100%;
+        height: auto !important;
+    }
+    .footer__title{
+        text-align: center !important;
+    }
+    .footer__list{
+        margin: 0 auto !important;
+    }
+}
+@media (max-width: 662px){
+    .header__menu{
+        justify-content: center !important;
+        padding-left: 50px;
+    }
+    .header__menu-list:last-child{
+        margin-right: 0 !important;
+    }
+}
+@media (max-width: 560px) {
+    .header__menu {
+        gap: 0 !important;
+        text-align: center !important;
+        min-height: auto !important;
+        flex-direction: column !important;
+        padding-left: 150px !important;
+        text-align: center !important;
+    }
+    .main__wrapper{
+        margin-top: 0 !important;
+    }
+    .myproject{
+        margin-top: 25px !important;
+    }
+    .footer__social {
+        margin-left: 30px !important;
+    }
+}
+@media (max-width: 390px) {
+    .footer__social {
+        margin-left: 20px !important;
+    }
+    .footer__links{
+        margin-left: 10px;
+    }
+}

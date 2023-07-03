@@ -1,0 +1,74 @@
+@import "_global.scss";
+@import "_font";
+@import "_reset";
+@import "_media.scss";
+
+
+.main{
+    background: url(../images/background_lending.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+.wrapper{
+    max-width: 370px;
+    margin: 0 auto;
+    padding-top: 91px;
+    text-align: center;
+    padding: 91px 20px;
+}
+.sub-title{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 24px;
+    text-align: center;
+    color: #FFFFFF;
+}
+.title{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 42px;
+    line-height: 61px;
+    text-align: center;
+    color: #FFFFFF;
+    border-bottom: 3px solid #FFFFFF;
+}
+.text{
+    padding-top: 14px;
+    margin-bottom: 24px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 15px;
+    line-height: 18px;
+    text-align: center;
+    color: #FFFFFF;
+    text-transform: uppercase;
+}
+.link{
+    max-width: 170px;
+    display: block;
+    margin: 24px auto 24px auto;
+    padding: 7px 24px;
+    background: rgb(131, 58, 180);
+    background: linear-gradient(36deg, rgba(131, 58, 180, 1) 0%, rgba(253, 29, 29, 1) 44%, rgba(252, 176, 69, 1) 100%);
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 15px;
+    line-height: 18px;
+    text-align: center;
+    color: black;
+    text-transform: uppercase;
+}
+
+.link:is(:hover, :focus) {
+    transform: scale(1.2);
+   background: rgb(34, 193, 195);
+   background: linear-gradient(83deg, rgba(34, 193, 195, 1) 0%, rgba(253, 187, 45, 1) 100%);
+    outline-offset: 3s !important;
+    font-weight: 700;
+}
